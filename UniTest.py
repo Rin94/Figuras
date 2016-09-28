@@ -10,6 +10,10 @@ class TestFiguras(unittest.TestCase):
     def test_area_cuadrado_lado_5(self):
         resultado = self.figura.cuadrado(5)
         self.assertEqual(25,resultado)
+        
+    def test_area_cuadrado_lado_2(self):
+        resultado = self.figura.cuadrado(2)
+        self.assertEqual(4,resultado)
 
     def test_area_cuadrado_lado_g(self):
         resultado = self.figura.cuadrado("g")
