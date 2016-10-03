@@ -10,5 +10,5 @@ class Figuras:
             math.pi
             return lado * lado
 
-        except Exception, e:
+        except Exception:
             return "Dato Incorrecto"
